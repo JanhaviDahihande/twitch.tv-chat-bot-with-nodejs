@@ -1,4 +1,7 @@
+var config = require('./config');
 var tmi = require('tmi.js');
+
+var username = "mostnerdybot";
 
 var options = {
     options: {
@@ -9,8 +12,8 @@ var options = {
         reconnect: true
     },
     identity: {
-        username: "mostnerdybot",
-        password: "oauth:uk3cdh4rjjwx2dn1hnawfict2c8pao"
+        username: username,
+        password: config.MY_KEY
     },
     channels: ["mostnerdybot"]
 };
