@@ -1,0 +1,22 @@
+{
+  "name": "twitch.tv-chat-bot-with-nodejs",
+  "version": "1.0.0",
+  "description": "This is Twitch bot",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JanhaviDahihande/twitch.tv-chat-bot-with-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JanhaviDahihande/twitch.tv-chat-bot-with-nodejs/issues"
+  },
+  "homepage": "https://github.com/JanhaviDahihande/twitch.tv-chat-bot-with-nodejs#readme",
+  "dependencies": {
+    "tmi.js": "^1.5.0"
+  }
+}
